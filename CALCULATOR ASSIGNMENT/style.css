@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+}
+
+body {
+    background-image: url(pouch2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.input {
+    border: none;
+    background-color: white;
+    color: purple;
+    font-family: "Agdasima";
+    font-size: 25px;
+    width: 310px;
+    height: 70px;
+    padding: 10px 10px;
+}
+
+input :active {
+    border: none;
+}
+
+.space {
+    padding-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.main {
+    background-image: linear-gradient(rgba(128, 0, 128, 0.877), pink);
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 110px;
+    box-shadow: 10px 10px 7px rgba(128, 0, 128, 0.829);
+
+}
+
+
+.btn {
+    cursor: pointer;
+    border-radius: 10px;
+    color: purple;
+    border: none;
+    font-family: "Agdasima";
+    font-size: 20px;
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    padding: 12px 12px;
+}
+
+.btn:hover {
+    background-color: purple;
+    color: white;
+
+}
+
+.btn:active {
+    box-shadow: 5px 10px 3px white;
+}
+
+.btn2:active {
+    box-shadow: 5px 10px 3px rgba(128, 0, 128, 0.829);
+    /* background-color: white; */
+    color: purple;
+}
+
+.btn2 {
+    background-color: pink;
+    font-size: 23px;
+}
+
